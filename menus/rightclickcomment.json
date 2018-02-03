@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle rightclickcomment",
+        "command": "rightclickcomment:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "rightclickcomment",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "rightclickcomment:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
